@@ -91,7 +91,10 @@ The model with the lower MSE was selected for predictions, which was the **Rando
 
 ## Outputs
 - **submission.csv**: Contains the predicted `cost_of_living` for all hexagon IDs in the test dataset.
-
+  
+## Evaluation Metric:
+- **Mean Squared Error (MSE)**: Measures the accuracy of predictions on the validation set.
+  
 ### Example Format:
 ```csv
 hex_id,cost_of_living
@@ -99,5 +102,3 @@ hex_id,cost_of_living
 8a2a1072a7bffff,0.60
 8a2a1072959ffff,0.33
 
-### **Evaluation Metric**:
-- **Mean Squared Error (MSE)**: Measures the accuracy of predictions on the validation set.
