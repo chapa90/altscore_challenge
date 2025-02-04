@@ -73,7 +73,7 @@ The model with the lower MSE was selected for predictions, which was the **Rando
 1. Install the required libraries:
 
    ```bash
-   pip install pandas pyarrow h3 xgboost scikit-learn
+   pip install pandas pyarrow h3 xgboost scikit-learn  
    
 ### Ensure the following files are in the specified paths:
 - `train.csv`
@@ -99,5 +99,5 @@ hex_id,cost_of_living
 8a2a1072a7bffff,0.60
 8a2a1072959ffff,0.33
 
-### Evaluation Metric:
+### **Evaluation Metric**:
 - **Mean Squared Error (MSE)**: Measures the accuracy of predictions on the validation set.
